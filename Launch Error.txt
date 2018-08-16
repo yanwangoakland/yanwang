@@ -1,0 +1,179 @@
+[baxter - http://localhost:11311] yanwang@ubuntu:~/ros_ws$ roslaunch moveit_grasps test_grasp_generator.launch 
+
+... logging to /home/yanwang/.ros/log/6e9e6c06-a18b-11e8-8b4f-000c29c10a71/roslaunch-ubuntu-16690.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://192.168.177.129:34943/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /moveit_grasps_test/base_link: world
+ * /moveit_grasps_test/ee_group_name: left_hand
+ * /moveit_grasps_test/left_hand/angle_resolution: 20
+ * /moveit_grasps_test/left_hand/approach_distance_desired: 0.125
+ * /moveit_grasps_test/left_hand/end_effector_name: left_hand
+ * /moveit_grasps_test/left_hand/finger_to_palm_depth: 0.11
+ * /moveit_grasps_test/left_hand/grasp_depth_resolution: 0.025
+ * /moveit_grasps_test/left_hand/grasp_min_depth: 0.015
+ * /moveit_grasps_test/left_hand/grasp_padding_on_approach: 0.01
+ * /moveit_grasps_test/left_hand/grasp_pose_to_eef_rotation: [1.5707, 0, 0]
+ * /moveit_grasps_test/left_hand/grasp_pose_to_eef_transform: [0, 0, -0.115, -1...
+ * /moveit_grasps_test/left_hand/grasp_pose_to_eef_translation: [-0.05, 0, 0]
+ * /moveit_grasps_test/left_hand/grasp_posture: [0.77, 0.77, 0.77...
+ * /moveit_grasps_test/left_hand/grasp_resolution: 0.05
+ * /moveit_grasps_test/left_hand/grasp_time_from_start: 4.0
+ * /moveit_grasps_test/left_hand/gripper_finger_width: 0.012
+ * /moveit_grasps_test/left_hand/joints: ['l_gripper_l_fin...
+ * /moveit_grasps_test/left_hand/lift_distance_desired: 0.015
+ * /moveit_grasps_test/left_hand/max_finger_width: 0.102
+ * /moveit_grasps_test/left_hand/max_grasp_width: 0.1
+ * /moveit_grasps_test/left_hand/min_finger_width: 0.004
+ * /moveit_grasps_test/left_hand/pregrasp_posture: [0.0, 0.0, 0.0, 0...
+ * /moveit_grasps_test/left_hand/pregrasp_time_from_start: 4.0
+ * /moveit_grasps_test/left_hand/retreat_distance_desired: 0.3
+ * /moveit_grasps_test/moveit_grasps/filter/collision_verbose: False
+ * /moveit_grasps_test/moveit_grasps/filter/collision_verbose_speed: 0.5
+ * /moveit_grasps_test/moveit_grasps/filter/show_cutting_planes: False
+ * /moveit_grasps_test/moveit_grasps/filter/show_filtered_arm_solutions: False
+ * /moveit_grasps_test/moveit_grasps/filter/show_filtered_arm_solutions_pregrasp_speed: 0.25
+ * /moveit_grasps_test/moveit_grasps/filter/show_filtered_arm_solutions_speed: 0.5
+ * /moveit_grasps_test/moveit_grasps/filter/show_filtered_grasps: True
+ * /moveit_grasps_test/moveit_grasps/filter/show_grasp_filter_collision_if_failed: False
+ * /moveit_grasps_test/moveit_grasps/filter/statistics_verbose: False
+ * /moveit_grasps_test/moveit_grasps/generator/depth_score_weight: 3.0
+ * /moveit_grasps_test/moveit_grasps/generator/orientation_x_score_weight: 0.0
+ * /moveit_grasps_test/moveit_grasps/generator/orientation_y_score_weight: 5.0
+ * /moveit_grasps_test/moveit_grasps/generator/orientation_z_score_weight: 2.0
+ * /moveit_grasps_test/moveit_grasps/generator/show_grasp_arrows: False
+ * /moveit_grasps_test/moveit_grasps/generator/show_grasp_arrows_speed: 0.001
+ * /moveit_grasps_test/moveit_grasps/generator/show_prefiltered_grasps: False
+ * /moveit_grasps_test/moveit_grasps/generator/show_prefiltered_grasps_speed: 0.01
+ * /moveit_grasps_test/moveit_grasps/generator/translation_x_score_weight: 0.0
+ * /moveit_grasps_test/moveit_grasps/generator/translation_y_score_weight: 0.0
+ * /moveit_grasps_test/moveit_grasps/generator/translation_z_score_weight: 4.0
+ * /moveit_grasps_test/moveit_grasps/generator/verbose: False
+ * /moveit_grasps_test/moveit_grasps/generator/width_score_weight: 1.0
+ * /moveit_grasps_test/moveit_grasps/planner/collision_checking_verbose: False
+ * /moveit_grasps_test/moveit_grasps/planner/show_cartesian_waypoints: False
+ * /moveit_grasps_test/moveit_grasps/planner/verbose_cartesian_filtering: False
+ * /moveit_grasps_test/right_hand/angle_resolution: 10
+ * /moveit_grasps_test/right_hand/end_effector_name: right_hand
+ * /moveit_grasps_test/right_hand/finger_to_palm_depth: 0.1
+ * /moveit_grasps_test/right_hand/grasp_depth_resolution: 0.05
+ * /moveit_grasps_test/right_hand/grasp_min_depth: 0.01
+ * /moveit_grasps_test/right_hand/grasp_pose_to_eef_rotation: [0, 0, 0]
+ * /moveit_grasps_test/right_hand/grasp_pose_to_eef_translation: [0, 0, -0.06]
+ * /moveit_grasps_test/right_hand/grasp_posture: [1.25]
+ * /moveit_grasps_test/right_hand/grasp_resolution: 0.01
+ * /moveit_grasps_test/right_hand/grasp_time_from_start: 4.0
+ * /moveit_grasps_test/right_hand/gripper_finger_width: 0.05
+ * /moveit_grasps_test/right_hand/joints: ['r_gripper_l_fin...
+ * /moveit_grasps_test/right_hand/max_grasp_width: 0.1
+ * /moveit_grasps_test/right_hand/pregrasp_posture: [0.8]
+ * /moveit_grasps_test/right_hand/pregrasp_time_from_start: 4.0
+ * /robot_description: <?xml version="1....
+ * /robot_description_kinematics/left_arm/kinematics_solver: kdl_kinematics_pl...
+ * /robot_description_kinematics/left_arm/kinematics_solver_attempts: 3
+ * /robot_description_kinematics/left_arm/kinematics_solver_search_resolution: 0.005
+ * /robot_description_kinematics/left_arm/kinematics_solver_timeout: 0.005
+ * /robot_description_kinematics/right_arm/kinematics_solver: kdl_kinematics_pl...
+ * /robot_description_kinematics/right_arm/kinematics_solver_attempts: 3
+ * /robot_description_kinematics/right_arm/kinematics_solver_search_resolution: 0.005
+ * /robot_description_kinematics/right_arm/kinematics_solver_timeout: 0.005
+ * /robot_description_planning/joint_limits/left_e0/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/left_e0/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/left_e0/max_acceleration: 2.0
+ * /robot_description_planning/joint_limits/left_e0/max_velocity: 0.75
+ * /robot_description_planning/joint_limits/left_e1/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/left_e1/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/left_e1/max_acceleration: 2.0
+ * /robot_description_planning/joint_limits/left_e1/max_velocity: 0.75
+ * /robot_description_planning/joint_limits/left_s0/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/left_s0/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/left_s0/max_acceleration: 2.0
+ * /robot_description_planning/joint_limits/left_s0/max_velocity: 0.75
+ * /robot_description_planning/joint_limits/left_s1/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/left_s1/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/left_s1/max_acceleration: 2.0
+ * /robot_description_planning/joint_limits/left_s1/max_velocity: 0.75
+ * /robot_description_planning/joint_limits/left_w0/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/left_w0/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/left_w0/max_acceleration: 2.0
+ * /robot_description_planning/joint_limits/left_w0/max_velocity: 1.0
+ * /robot_description_planning/joint_limits/left_w1/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/left_w1/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/left_w1/max_acceleration: 2.0
+ * /robot_description_planning/joint_limits/left_w1/max_velocity: 1.0
+ * /robot_description_planning/joint_limits/left_w2/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/left_w2/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/left_w2/max_acceleration: 2.0
+ * /robot_description_planning/joint_limits/left_w2/max_velocity: 1.0
+ * /robot_description_planning/joint_limits/right_e0/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/right_e0/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/right_e0/max_acceleration: 2.0
+ * /robot_description_planning/joint_limits/right_e0/max_velocity: 0.75
+ * /robot_description_planning/joint_limits/right_e1/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/right_e1/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/right_e1/max_acceleration: 2.0
+ * /robot_description_planning/joint_limits/right_e1/max_velocity: 0.75
+ * /robot_description_planning/joint_limits/right_s0/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/right_s0/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/right_s0/max_acceleration: 2.0
+ * /robot_description_planning/joint_limits/right_s0/max_velocity: 0.75
+ * /robot_description_planning/joint_limits/right_s1/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/right_s1/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/right_s1/max_acceleration: 2.0
+ * /robot_description_planning/joint_limits/right_s1/max_velocity: 0.75
+ * /robot_description_planning/joint_limits/right_w0/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/right_w0/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/right_w0/max_acceleration: 2.0
+ * /robot_description_planning/joint_limits/right_w0/max_velocity: 1.0
+ * /robot_description_planning/joint_limits/right_w1/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/right_w1/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/right_w1/max_acceleration: 2.0
+ * /robot_description_planning/joint_limits/right_w1/max_velocity: 1.0
+ * /robot_description_planning/joint_limits/right_w2/has_acceleration_limits: True
+ * /robot_description_planning/joint_limits/right_w2/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/right_w2/max_acceleration: 2.0
+ * /robot_description_planning/joint_limits/right_w2/max_velocity: 1.0
+ * /robot_description_semantic: <?xml version="1....
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.13
+
+NODES
+  /
+    moveit_grasps_test (moveit_grasps/moveit_grasps_test)
+
+ROS_MASTER_URI=http://localhost:11311
+
+process[moveit_grasps_test-1]: started with pid [16713]
+[ INFO] [1534448260.036401875]: GraspGenerator Test
+[ INFO] [1534448260.073201711]: End Effector: left_hand
+[ INFO] [1534448260.073410172]: Planning Group: 
+[ INFO] [1534448260.074088330]: No planning scene passed into moveit_visual_tools, creating one.
+[ INFO] [1534448260.143377259]: Loading robot model 'baxter'...
+[ INFO] [1534448260.604896289, 57.672000000]: Loading robot model 'baxter'...
+[ INFO] [1534448260.701469207, 57.706000000]: Loading robot model 'baxter'...
+[ INFO] [1534448261.171046870, 57.897000000]: Publishing maintained planning scene on ''
+[ INFO] [1534448263.269019274, 58.926000000]: GraspGenerator Ready.
+[ INFO] [1534448263.269850860, 58.926000000]: Adding random object 1 of 1
+[ INFO] [1534448265.972672456, 60.210000000]: added 0 of 120 grasp poses created
+[ERROR] [1534448266.178371048, 60.288000000]: Requested joint 0 with value 0.117932 is beyond limits of 0, 0.020833
+[ERROR] [1534448296.240822657, 75.446000000]: Requested joint 0 with value 0.117932 is beyond limits of 0, 0.020833
+[ INFO] [1534448296.240931118, 75.446000000]: added 0 of 1400 grasp poses created
+[ INFO] [1534448297.398908879, 75.858000000]: added 0 of 40 grasp poses created
+[ INFO] [1534448297.399108404, 75.859000000]: Generated 1560 grasps
+[ INFO] [1534448297.401668349, 75.859000000]: Total time: 75859
+[ INFO] [1534448297.404878498, 75.862000000]: Stopped publishing maintained planning scene.
+[moveit_grasps_test-1] process has finished cleanly
+log file: /home/yanwang/.ros/log/6e9e6c06-a18b-11e8-8b4f-000c29c10a71/moveit_grasps_test-1*.log
+all processes on machine have died, roslaunch will exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+done
+
+
