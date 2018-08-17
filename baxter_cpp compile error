@@ -1,0 +1,320 @@
+yanwnag@ubuntu:~$ cd ~/ros/ws_baxter
+yanwnag@ubuntu:~/ros/ws_baxter$ catkin_make
+Base path: /home/yanwnag/ros/ws_baxter
+Source space: /home/yanwnag/ros/ws_baxter/src
+Build space: /home/yanwnag/ros/ws_baxter/build
+Devel space: /home/yanwnag/ros/ws_baxter/devel
+Install space: /home/yanwnag/ros/ws_baxter/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/yanwnag/ros/ws_baxter/build"
+####
+####
+#### Running command: "make -j4 -l4" in "/home/yanwnag/ros/ws_baxter/build"
+####
+[  0%] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_UpdateStatus
+Built target _baxter_maintenance_msgs_generate_messages_check_deps_CalibrateArmData
+[  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_UpdateSource
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_TareEnable
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_UpdateSources
+[  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_CalibrateArmEnable
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_TareData
+[  0%] Built target _controller_manager_msgs_generate_messages_check_deps_ControllerStatistics
+[  0%] Built target _controller_manager_msgs_generate_messages_check_deps_ControllerState
+[  0%] Built target _controller_manager_msgs_generate_messages_check_deps_ControllersStatistics
+[  0%] Built target _controller_manager_msgs_generate_messages_check_deps_SwitchController
+[  0%] Built target _controller_manager_msgs_generate_messages_check_deps_UnloadController
+[  0%] Built target _controller_manager_msgs_generate_messages_check_deps_LoadController
+[  0%] Built target _controller_manager_msgs_generate_messages_check_deps_ListControllers
+[  0%] Built target _controller_manager_msgs_generate_messages_check_deps_ReloadControllerLibraries
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target _controller_manager_msgs_generate_messages_check_deps_ListControllerTypes
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndpointStates
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CloseCamera
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AnalogIOStates
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndEffectorState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AnalogIOState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndEffectorCommand
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CollisionAvoidanceState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_ITBStates
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_ITBState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_NavigatorStates
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_ListCameras
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AssemblyState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_NavigatorState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndEffectorProperties
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CollisionDetectionState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CameraSettings
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_RobustControllerStatus
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_JointCommand
+[  0%] [  0%] [  0%] Built target _baxter_core_msgs_generate_messages_check_deps_DigitalIOState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AssemblyStates
+Built target _baxter_core_msgs_generate_messages_check_deps_DigitalOutputCommand
+Built target _baxter_core_msgs_generate_messages_check_deps_OpenCamera
+[  0%] [  0%] [  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AnalogOutputCommand
+Built target _baxter_core_msgs_generate_messages_check_deps_CameraControl
+Built target _baxter_core_msgs_generate_messages_check_deps_HeadState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndpointState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_SEAJointState
+[  0%] [  0%] Built target _baxter_core_msgs_generate_messages_check_deps_HeadPanCommand
+Built target _baxter_core_msgs_generate_messages_check_deps_SolvePositionIK
+[  0%] [  0%] Built target geometry_msgs_generate_messages_cpp
+Built target _baxter_core_msgs_generate_messages_check_deps_DigitalIOStates
+[  0%] [  0%] Built target sensor_msgs_generate_messages_cpp
+Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target _control_msgs_generate_messages_check_deps_QueryCalibrationState
+[  0%] Built target _control_msgs_generate_messages_check_deps_GripperCommand
+[  0%] Built target _control_msgs_generate_messages_check_deps_PointHeadResult
+[  0%] Built target _control_msgs_generate_messages_check_deps_SingleJointPositionActionFeedback
+[  0%] [  0%] Built target _control_msgs_generate_messages_check_deps_JointTrajectoryResult
+Built target _control_msgs_generate_messages_check_deps_SingleJointPositionFeedback
+[  0%] Built target _control_msgs_generate_messages_check_deps_GripperCommandGoal
+[  0%] Built target _control_msgs_generate_messages_check_deps_GripperCommandFeedback
+[  0%] Built target _control_msgs_generate_messages_check_deps_SingleJointPositionAction
+[  0%] Built target _control_msgs_generate_messages_check_deps_SingleJointPositionResult
+[  0%] Built target _control_msgs_generate_messages_check_deps_JointTrajectoryFeedback
+[  0%] Built target _control_msgs_generate_messages_check_deps_FollowJointTrajectoryActionResult
+[  0%] Built target _control_msgs_generate_messages_check_deps_JointTrajectoryAction
+[  0%] [  0%] Built target _control_msgs_generate_messages_check_deps_FollowJointTrajectoryFeedback
+Built target _control_msgs_generate_messages_check_deps_PointHeadActionFeedback
+[  0%] Built target _control_msgs_generate_messages_check_deps_GripperCommandResult
+[  0%] Built target _control_msgs_generate_messages_check_deps_PointHeadActionResult
+[  0%] Built target _control_msgs_generate_messages_check_deps_SingleJointPositionGoal
+[  0%] Built target _control_msgs_generate_messages_check_deps_JointTrajectoryGoal
+[  0%] Built target _control_msgs_generate_messages_check_deps_QueryTrajectoryState
+[  0%] Built target _control_msgs_generate_messages_check_deps_PointHeadGoal
+[  0%] Built target _control_msgs_generate_messages_check_deps_GripperCommandAction
+[  0%] Built target _control_msgs_generate_messages_check_deps_FollowJointTrajectoryActionGoal
+[  0%] Built target _control_msgs_generate_messages_check_deps_JointTrajectoryActionFeedback
+[  0%] Built target _control_msgs_generate_messages_check_deps_FollowJointTrajectoryAction
+[  0%] Built target _control_msgs_generate_messages_check_deps_JointTrajectoryActionResult
+[  0%] Built target _control_msgs_generate_messages_check_deps_JointTrajectoryActionGoal
+[  0%] Built target _control_msgs_generate_messages_check_deps_FollowJointTrajectoryActionFeedback
+[  0%] Built target _control_msgs_generate_messages_check_deps_SingleJointPositionActionResult
+[  0%] [  0%] Built target _control_msgs_generate_messages_check_deps_GripperCommandActionFeedback
+Built target _control_msgs_generate_messages_check_deps_PointHeadFeedback
+[  0%] Built target _control_msgs_generate_messages_check_deps_GripperCommandActionResult
+[  0%] Built target _control_msgs_generate_messages_check_deps_PointHeadActionGoal
+[  0%] Built target _control_msgs_generate_messages_check_deps_GripperCommandActionGoal
+[  0%] Built target _control_msgs_generate_messages_check_deps_JointTolerance
+[  0%] Built target _control_msgs_generate_messages_check_deps_JointControllerState
+[  0%] Built target _control_msgs_generate_messages_check_deps_JointTrajectoryControllerState
+[  0%] Built target _control_msgs_generate_messages_check_deps_SingleJointPositionActionGoal
+[  0%] Built target _control_msgs_generate_messages_check_deps_FollowJointTrajectoryGoal
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] [  0%] Built target _control_msgs_generate_messages_check_deps_PointHeadAction
+Built target _control_msgs_generate_messages_check_deps_PidState
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target _control_msgs_generate_messages_check_deps_FollowJointTrajectoryResult
+[  0%] [  0%] Built target actionlib_msgs_generate_messages_lisp
+Built target trajectory_msgs_generate_messages_lisp
+[  1%] Built target realtime_tools
+[  1%] [  1%] [  1%] Built target roscpp_generate_messages_cpp
+Built target roscpp_generate_messages_lisp
+Built target roscpp_generate_messages_py
+[  1%] Built target rosgraph_msgs_generate_messages_py
+[  1%] [  1%] Built target rosgraph_msgs_generate_messages_lisp
+Built target rosgraph_msgs_generate_messages_cpp
+[  1%] Built target actionlib_generate_messages_cpp
+[  1%] Built target joint_state_controller
+[  1%] Built target actionlib_generate_messages_lisp
+[  1%] Built target _catkin_empty_exported_target
+[  1%] Built target actionlib_generate_messages_py
+[  1%] Built target baxter_examples_gencfg
+[  1%] [  2%] Built target control_toolbox_gencfg
+Built target gtest
+[  2%] Built target checkerboard_calibration
+[  2%] Built target graph_msgs_generate_messages_cpp
+[  2%] Built target _control_toolbox_generate_messages_check_deps_SetPidGains
+[  2%] Built target checkerboard_detector
+[  2%] Built target transmission_interface_parser
+[  2%] Built target baxter_state_publisher_solver
+[  3%] Built target baxter_right_arm_moveit_ikfast_plugin
+[  3%] Built target baxter_left_arm_moveit_ikfast_plugin
+[  3%] Built target moveit_msgs_generate_messages_py
+[  3%] Built target _moveit_simple_grasps_generate_messages_check_deps_GenerateGraspsActionResult
+[  3%] Built target _moveit_simple_grasps_generate_messages_check_deps_GenerateGraspsActionFeedback
+[  3%] [  3%] Built target _moveit_simple_grasps_generate_messages_check_deps_GenerateGraspsAction
+Built target _moveit_simple_grasps_generate_messages_check_deps_GraspGeneratorOptions
+[  3%] Built target _moveit_simple_grasps_generate_messages_check_deps_GenerateGraspsGoal
+[  3%] Built target moveit_msgs_generate_messages_cpp
+[  3%] Built target moveit_msgs_generate_messages_lisp
+[  3%] [  3%] [  3%] Built target _moveit_simple_grasps_generate_messages_check_deps_GenerateGraspsFeedback
+Built target _moveit_simple_grasps_generate_messages_check_deps_GenerateGraspsActionGoal
+Built target _moveit_simple_grasps_generate_messages_check_deps_GenerateGraspsResult
+[  3%] Built target moveit_ros_manipulation_gencfg
+[  3%] [  3%] [  3%] Built target tf_generate_messages_cpp
+Built target tf_generate_messages_py
+Built target visualization_msgs_generate_messages_cpp
+[  3%] Built target tf_generate_messages_lisp
+[  3%] [  3%] Built target tf2_msgs_generate_messages_lisp
+Built target graph_msgs_generate_messages_lisp
+[  3%] Built target tf2_msgs_generate_messages_py
+[  3%] Built target tf2_msgs_generate_messages_cpp
+[  3%] Built target graph_msgs_generate_messages_py
+[  3%] Built target visualization_msgs_generate_messages_py
+[  3%] Built target visualization_msgs_generate_messages_lisp
+[  3%] Built target octomap_msgs_generate_messages_py
+[  3%] Built target shape_msgs_generate_messages_lisp
+[  3%] Built target octomap_msgs_generate_messages_lisp
+[  3%] [  3%] Built target object_recognition_msgs_generate_messages_cpp
+Built target object_recognition_msgs_generate_messages_lisp
+[  3%] Built target object_recognition_msgs_generate_messages_py
+[  3%] Built target shape_msgs_generate_messages_cpp
+[  3%] [  3%] Built target shape_msgs_generate_messages_py
+Built target octomap_msgs_generate_messages_cpp
+[  3%] Built target moveit_ros_planning_gencfg
+[  4%] Built target baxter_maintenance_msgs_generate_messages_lisp
+[  6%] Built target baxter_maintenance_msgs_generate_messages_cpp
+[  6%] Built target diff_drive_controller
+[  8%] Built target baxter_maintenance_msgs_generate_messages_py
+[ 12%] [ 14%] Built target controller_manager_msgs_generate_messages_py
+Built target controller_manager_msgs_generate_messages_cpp
+[ 16%] Built target controller_manager_msgs_generate_messages_lisp
+[ 24%] Built target baxter_core_msgs_generate_messages_py
+[ 32%] Built target baxter_core_msgs_generate_messages_cpp
+[ 40%] Built target baxter_core_msgs_generate_messages_lisp
+[ 51%] Built target control_msgs_generate_messages_py
+[ 61%] Built target control_msgs_generate_messages_cpp
+[ 73%] [ 73%] Built target control_msgs_generate_messages_lisp
+Built target force_torque_sensor_controller
+[ 73%] Built target imu_sensor_controller
+[ 74%] Built target position_controllers
+[ 75%] Built target baxter_head_follow
+[ 75%] Built target controller_manager
+[ 75%] [ 76%] Built target gripper_action_server
+Built target baxter_interface_gencfg
+[ 76%] Built target control_toolbox_generate_messages_cpp
+[ 76%] Built target control_toolbox_generate_messages_lisp
+[ 77%] Built target control_toolbox_generate_messages_py
+[ 79%] [ 79%] Built target moveit_simple_grasps_generate_messages_py
+Built target transmission_interface_loader
+[ 79%] Built target baxter_state_publisher
+[ 80%] Built target rviz_visual_tools
+[ 83%] [ 85%] Built target moveit_simple_grasps_generate_messages_cpp
+Built target moveit_simple_grasps_generate_messages_lisp
+[ 85%] [ 85%] Built target diffbot
+Built target skidsteerbot
+[ 85%] [ 85%] Built target controller_manager_msgs_generate_messages
+Built target baxter_maintenance_msgs_generate_messages
+[ 85%] Built target baxter_core_msgs_generate_messages
+[ 85%] Built target control_msgs_generate_messages
+[ 85%] [ 85%] Built target control_toolbox_gencpp
+Built target control_toolbox_generate_messages
+[ 85%] Built target moveit_simple_grasps_generate_messages
+[ 86%] [ 87%] Built target rviz_visual_tools_demo
+Built target transmission_interface_loader_plugins
+[ 87%] Built target moveit_visual_tools
+[ 89%] Built target control_toolbox
+[ 89%] Built target arm_interface
+[ 91%] Built target baxter_assembly_state
+[ 91%] Built target baxter_utilities
+[ 92%] Built target baxter_to_csv
+[ 92%] Built target joint_states_republisher
+[ 92%] Built target trajectory_msg_test
+[ 93%] [ 93%] [ 94%] Built target moveit_visual_tools_demo
+Built target velocity_controllers
+Built target moveit_visual_tools_collision_objects_demo
+[ 95%] Built target moveit_simple_grasps
+[ 95%] Built target gripper_action_controller
+[ 95%] [ 95%] Built target joint_trajectory_controller
+Built target moveit_simple_grasps_filter
+[ 95%] Built target rrbot
+[ 95%] Built target rrbot_wrapping
+[ 96%] [ 97%] Built target cm_test
+Built target controller_manager_tests
+[ 98%] Built target effort_controllers
+[ 98%] Built target baxter_hardware_interface
+[ 98%] Built target moveit_simple_grasps_filter_test
+[ 98%] Built target moveit_simple_grasps_server
+[ 98%] Built target moveit_simple_grasps_test
+[ 98%] Building CXX object baxter_cpp-indigo-devel/baxter_moveit_scripts/CMakeFiles/baxter_move_group_interface.dir/src/tools/baxter_move_group_interface.cpp.o
+[ 98%] Built target end_effector_position
+[ 98%] Built target get_joint_values
+[ 98%] Building CXX object baxter_cpp-indigo-devel/baxter_pick_place/CMakeFiles/block_pick_place.dir/src/block_pick_place.cpp.o
+[100%] Built target dummy_app
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_moveit_scripts/src/tools/baxter_move_group_interface.cpp: In member function ‘bool baxter_pick_place::BaxterMoveGroupInterface::computeStraightLinePath(Eigen::Vector3d, double, moveit_msgs::RobotTrajectory&, const moveit_simple_grasps::GraspData&, const string&, moveit_visual_tools::MoveItVisualToolsPtr)’:
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_moveit_scripts/src/tools/baxter_move_group_interface.cpp:406:59: error: no matching function for call to ‘moveit_visual_tools::MoveItVisualTools::publishTrajectoryPath(moveit_msgs::RobotTrajectory&, bool)’
+   visual_tools->publishTrajectoryPath(trajectory_msg, true);
+                                                           ^
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_moveit_scripts/src/tools/baxter_move_group_interface.cpp:406:59: note: candidates are:
+In file included from /home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_moveit_scripts/include/baxter_moveit_scripts/baxter_move_group_interface.h:50:0,
+                 from /home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_moveit_scripts/src/tools/baxter_move_group_interface.cpp:39:
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:486:8: note: bool moveit_visual_tools::MoveItVisualTools::publishTrajectoryPath(const std::vector<boost::shared_ptr<moveit::core::RobotState> >&, const moveit::core::JointModelGroup*, double, bool)
+   bool publishTrajectoryPath(const std::vector<robot_state::RobotStatePtr> &trajectory,
+        ^
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:486:8: note:   no known conversion for argument 1 from ‘moveit_msgs::RobotTrajectory’ to ‘const std::vector<boost::shared_ptr<moveit::core::RobotState> >&’
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:488:8: note: bool moveit_visual_tools::MoveItVisualTools::publishTrajectoryPath(const robot_trajectory::RobotTrajectory&, bool)
+   bool publishTrajectoryPath(const robot_trajectory::RobotTrajectory &trajectory, bool blocking = false);
+        ^
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:488:8: note:   no known conversion for argument 1 from ‘moveit_msgs::RobotTrajectory’ to ‘const robot_trajectory::RobotTrajectory&’
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:489:8: note: bool moveit_visual_tools::MoveItVisualTools::publishTrajectoryPath(const RobotTrajectory&, moveit::core::RobotStateConstPtr, bool)
+   bool publishTrajectoryPath(const moveit_msgs::RobotTrajectory &trajectory_msg,
+        ^
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:489:8: note:   candidate expects 3 arguments, 2 provided
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_moveit_scripts/src/tools/baxter_move_group_interface.cpp:423:59: error: no matching function for call to ‘moveit_visual_tools::MoveItVisualTools::publishTrajectoryPath(moveit_msgs::RobotTrajectory&, bool)’
+   visual_tools->publishTrajectoryPath(trajectory_msg, true);
+                                                           ^
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_moveit_scripts/src/tools/baxter_move_group_interface.cpp:423:59: note: candidates are:
+In file included from /home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_moveit_scripts/include/baxter_moveit_scripts/baxter_move_group_interface.h:50:0,
+                 from /home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_moveit_scripts/src/tools/baxter_move_group_interface.cpp:39:
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:486:8: note: bool moveit_visual_tools::MoveItVisualTools::publishTrajectoryPath(const std::vector<boost::shared_ptr<moveit::core::RobotState> >&, const moveit::core::JointModelGroup*, double, bool)
+   bool publishTrajectoryPath(const std::vector<robot_state::RobotStatePtr> &trajectory,
+        ^
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:486:8: note:   no known conversion for argument 1 from ‘moveit_msgs::RobotTrajectory’ to ‘const std::vector<boost::shared_ptr<moveit::core::RobotState> >&’
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:488:8: note: bool moveit_visual_tools::MoveItVisualTools::publishTrajectoryPath(const robot_trajectory::RobotTrajectory&, bool)
+   bool publishTrajectoryPath(const robot_trajectory::RobotTrajectory &trajectory, bool blocking = false);
+        ^
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:488:8: note:   no known conversion for argument 1 from ‘moveit_msgs::RobotTrajectory’ to ‘const robot_trajectory::RobotTrajectory&’
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:489:8: note: bool moveit_visual_tools::MoveItVisualTools::publishTrajectoryPath(const RobotTrajectory&, moveit::core::RobotStateConstPtr, bool)
+   bool publishTrajectoryPath(const moveit_msgs::RobotTrajectory &trajectory_msg,
+        ^
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:489:8: note:   candidate expects 3 arguments, 2 provided
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_moveit_scripts/src/tools/baxter_move_group_interface.cpp: In member function ‘bool baxter_pick_place::BaxterMoveGroupInterface::executeTrajectoryMsg(const RobotTrajectory&)’:
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_moveit_scripts/src/tools/baxter_move_group_interface.cpp:441:84: warning: ‘trajectory_execution_manager::TrajectoryExecutionManager::TrajectoryExecutionManager(const RobotModelConstPtr&)’ is deprecated (declared at /opt/ros/indigo/include/moveit/trajectory_execution_manager/trajectory_execution_manager.h:85) [-Wdeprecated-declarations]
+                                           (planning_scene_monitor_->getRobotModel()));
+                                                                                    ^
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_pick_place/src/block_pick_place.cpp: In constructor ‘baxter_pick_place::SimplePickPlace::SimplePickPlace(bool)’:
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_pick_place/src/block_pick_place.cpp:131:76: error: no matching function for call to ‘moveit_visual_tools::MoveItVisualTools::loadEEMarker(std::string&, std::string&)’
+     visual_tools_->loadEEMarker(grasp_data_.ee_group_, planning_group_name_);
+                                                                            ^
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_pick_place/src/block_pick_place.cpp:131:76: note: candidates are:
+In file included from /home/yanwnag/ros/ws_baxter/src/moveit_simple_grasps-indigo-devel/include/moveit_simple_grasps/simple_grasps.h:60:0,
+                 from /home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_pick_place/src/block_pick_place.cpp:50:
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:169:8: note: bool moveit_visual_tools::MoveItVisualTools::loadEEMarker(const string&)
+   bool loadEEMarker(const std::string &ee_group_name)
+        ^
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:169:8: note:   candidate expects 1 argument, 2 provided
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:178:8: note: bool moveit_visual_tools::MoveItVisualTools::loadEEMarker(const moveit::core::JointModelGroup*)
+   bool loadEEMarker(const robot_model::JointModelGroup *ee_jmg);
+        ^
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:178:8: note:   candidate expects 1 argument, 2 provided
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_pick_place/src/block_pick_place.cpp: In member function ‘bool baxter_pick_place::SimplePickPlace::startRoutine()’:
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_pick_place/src/block_pick_place.cpp:182:20: error: ‘class moveit_visual_tools::MoveItVisualTools’ has no member named ‘setMuted’
+     visual_tools_->setMuted(false);
+                    ^
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_pick_place/src/block_pick_place.cpp: In member function ‘bool baxter_pick_place::SimplePickPlace::pick(const Pose&, std::string)’:
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_pick_place/src/block_pick_place.cpp:351:79: error: no matching function for call to ‘moveit_visual_tools::MoveItVisualTools::publishGrasps(std::vector<moveit_msgs::Grasp_<std::allocator<void> > >&, std::string&, double&)’
+       visual_tools_->publishGrasps( grasps, grasp_data_.ee_parent_link_, speed);
+                                                                               ^
+/home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_pick_place/src/block_pick_place.cpp:351:79: note: candidate is:
+In file included from /home/yanwnag/ros/ws_baxter/src/moveit_simple_grasps-indigo-devel/include/moveit_simple_grasps/simple_grasps.h:60:0,
+                 from /home/yanwnag/ros/ws_baxter/src/baxter_cpp-indigo-devel/baxter_pick_place/src/block_pick_place.cpp:50:
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:227:8: note: bool moveit_visual_tools::MoveItVisualTools::publishGrasps(const std::vector<moveit_msgs::Grasp_<std::allocator<void> > >&, const moveit::core::JointModelGroup*, double)
+   bool publishGrasps(const std::vector<moveit_msgs::Grasp> &possible_grasps, const robot_model::JointModelGroup *ee_jmg,
+        ^
+/home/yanwnag/ros/ws_baxter/src/moveit_visual_tools-indigo-devel/include/moveit_visual_tools/moveit_visual_tools.h:227:8: note:   no known conversion for argument 2 from ‘std::string {aka std::basic_string<char>}’ to ‘const moveit::core::JointModelGroup*’
+make[2]: *** [baxter_cpp-indigo-devel/baxter_moveit_scripts/CMakeFiles/baxter_move_group_interface.dir/src/tools/baxter_move_group_interface.cpp.o] Error 1
+make[1]: *** [baxter_cpp-indigo-devel/baxter_moveit_scripts/CMakeFiles/baxter_move_group_interface.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [baxter_cpp-indigo-devel/baxter_pick_place/CMakeFiles/block_pick_place.dir/src/block_pick_place.cpp.o] Error 1
+make[1]: *** [baxter_cpp-indigo-devel/baxter_pick_place/CMakeFiles/block_pick_place.dir/all] Error 2
+make: *** [all] Error 2
+Invoking "make -j4 -l4" failed
+yanwnag@ubuntu:~/ros/ws_baxter$ 
